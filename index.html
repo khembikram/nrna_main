@@ -19,6 +19,11 @@
         background-color: #3730a3;
         font-family: "Nunito Sans", sans-serif;
       }
+
+      #buttons {
+        background-color: #a755f7;
+        border: none;
+      }
       #logo-background {
         background-color: #3730a3;
         justify-content: center;
@@ -92,10 +97,10 @@
           </a>
         </li>
         <li class="mr-6 mt-4">
-          <a href="#" class="flex justify-center" >Projects</a>
+          <a href="#" class="flex justify-center">Projects</a>
         </li>
         <li class="mr-6 mt-4">
-          <a href="#" class="flex justify-center" >Knowledge</a>
+          <a href="#" class="flex justify-center">Knowledge</a>
         </li>
         <li class="mr-6 mt-4">
           <a class="flex items-center justify-center gap-1" href="#"
@@ -122,31 +127,47 @@
       </ul>
     </section>
 
-    <section class="w-4/5 m-auto py-10" id="banner">
-      <div class="flex justify-around flex-wrap">
-        <div id="item1" class="mb-5">
-          <img
-            src="./images/img1.jpg"
-            alt=""
-            style="height: 250px; width: 250px"
-          />
+    <div class="min-h-auto w-full">
+      <div class="w-full border-b border-gray-200 h-64 bg-white p-6 sm:px-20">
+        <div class="mt-8 text-2xl">
+          Welcome to Non Residnet Nepali Association(NRNA)
         </div>
-        <div id="item1" class="mb-5">
-          <img
-            src="./images/img1.jpg"
-            alt=""
-            style="height: 250px; width: 250px"
-          />
+
+        <div class="mt-6 text-gray-500">More info</div>
+      </div>
+
+      <div
+        class="grid w-full grid-cols-1 bg-gray-200 bg-opacity-25 shadow-md md:grid-cols-3"
+      >
+        <div class="border border-gray-300 bg-slate-50 p-6">
+          <div class="flex items-center flex-col gap-5 mt-12">
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 border border-blue-700 rounded w-full"
+              id="buttons"
+            >
+              Create New Business
+            </button>
+            <button
+              class="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 border border-blue-700 rounded w-full"
+              id="buttons"
+            >
+              View All Business
+            </button>
+          </div>
         </div>
-        <div id="item1" class="mb-5">
-          <img
-            src="./images/img1.jpg"
-            alt=""
-            style="height: 250px; width: 250px"
-          />
+
+        <div
+          class="border border-gray-300 bg-slate-50 h-64 p-6 md:border-t-0 md:border-l overflow-hidden"
+        >
+          <img src="./images/discounts_final.jpg" alt="" class="h-52 object-contain w-full"/>
+        </div>
+        <div
+          class="border border-gray-300 bg-slate-50 p-6 h-64 md:border-t-0 md:border-l overflow-hidden"
+        >
+        <img src="./images/img1.jpg" alt=""  class="h-52 object-contain w-full">
         </div>
       </div>
-    </section>
+    </div>
 
     <section class="h-auto p-10" id="hero">
       <div class="flex flex-wrap w-11/12 m-auto justify-between">
